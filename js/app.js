@@ -99,10 +99,10 @@ submit.addEventListener("click", () => {
     data = document.getElementById("responsePrism").value;
   }
   // log all the values in console for debugging
-  console.log("url is", url);
-  console.log("requestType is ", requestType);
-  console.log("contentType is ", contentType);
-  console.log("data is ", data);
+//   console.log("url is", url);
+//   console.log("requestType is ", requestType);
+//   console.log("contentType is ", contentType);
+//   console.log("data is ", data);
 
   // if the request type is post, invoke fetch api to create a post request
   if (requestType == "GET") {
